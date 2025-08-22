@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/itish/OneDrive/Desktop/MajorProjects/LinkedIn/frontend/src/layout/UserLayout/index.jsx"],"sourcesContent":["import React from \"react\";\r\n\r\nfunction UserLayout({ children }) {\r\n  return (\r\n    <div>\r\n      <h2>Hii</h2>\r\n      {children}\r\n    </div>\r\n  );\r\n}\r\n\r\nexport default UserLayout;\r\n"],"names":[],"mappings":";;;;AAAA;;;AAEA,SAAS,WAAW,EAAE,QAAQ,EAAE;IAC9B,qBACE,qKAAC;;0BACC,qKAAC;0BAAG;;;;;;YACH;;;;;;;AAGP;uCAEe","debugId":null}},
-    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/itish/OneDrive/Desktop/MajorProjects/LinkedIn/frontend/src/pages/login/index.jsx"],"sourcesContent":["import UserLayout from \"@/layout/UserLayout\";\r\nimport React from \"react\";\r\n\r\nfunction LoginComponent() {\r\n  return <UserLayout>HEllo</UserLayout>;\r\n}\r\n\r\nexport default LoginComponent;\r\n"],"names":[],"mappings":";;;;AAAA;AACA;;;;AAEA,SAAS;IACP,qBAAO,qKAAC,8HAAA,CAAA,UAAU;kBAAC;;;;;;AACrB;uCAEe","debugId":null}}]
-}

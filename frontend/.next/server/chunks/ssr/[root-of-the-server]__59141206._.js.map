@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/itish/OneDrive/Desktop/MajorProjects/LinkedIn/frontend/src/pages/profile/index.jsx"],"sourcesContent":["import React from \"react\";\r\n\r\nexport default function Profilepage() {\r\n  return <div>Profilepage</div>;\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBAAO,qKAAC;kBAAI;;;;;;AACd","debugId":null}}]
-}

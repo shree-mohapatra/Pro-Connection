@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/itish/OneDrive/Desktop/MajorProjects/LinkedIn/frontend/src/Components/Navbar/styles.module.css"],"sourcesContent":[".container{\r\n  padding: 1.2rem;\r\n   font-family: \"Poppins\";\r\n}\r\n\r\n.navBar{\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n}\r\n\r\n.navBarOptionContainer{\r\n  display: flex;\r\n}\r\n\r\n.buttonJoin{\r\n  \r\n  cursor: pointer;\r\n  user-select: none;\r\n  transition: all 0.2s;\r\n  margin-top: 0.5rem;\r\n  font-size: 1.2rem;\r\n  background-color: rgb(59, 191, 244);\r\n  color: white;\r\n  padding: 0.5rem 1rem;\r\n  border-radius: 1rem;\r\n  border: 2px solid rgb(2, 175, 255);\r\n  font-weight: 500;\r\n}"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;;;AAMA;;;;AAIA","debugId":null}},
-    {"offset": {"line": 33, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/itish/OneDrive/Desktop/MajorProjects/LinkedIn/frontend/src/pages/dashboard/style.module.css"],"sourcesContent":[""],"names":[],"mappings":"","debugId":null}}]
-}
