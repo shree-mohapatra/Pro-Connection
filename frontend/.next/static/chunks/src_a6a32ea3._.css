@@ -1,0 +1,159 @@
+/* [project]/src/layout/DashboardLayout/style.module.css [client] (css) */
+.style-module__n4BBnW__homeContainer {
+  display: flex;
+}
+
+.style-module__n4BBnW__homeContainer > div:nth-child(odd) {
+  flex: .2;
+}
+
+.style-module__n4BBnW__homeContainer > div:nth-child(2n) {
+  flex: .6;
+}
+
+.style-module__n4BBnW__homeContainer_leftBar {
+  border-right: 1px solid #dedede;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  display: flex;
+}
+
+.style-module__n4BBnW__sideBarOption {
+  cursor: pointer;
+  align-items: center;
+  gap: .8rem;
+  width: 80%;
+  min-width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+  font-size: 1rem;
+  transition: all .2s;
+  display: flex;
+}
+
+.style-module__n4BBnW__sideBarOption:hover {
+  transform: scale(1.11);
+}
+
+.style-module__n4BBnW__sideBarOption > svg {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  height: 1.2em;
+}
+
+.style-module__n4BBnW__homeContainer_extraContainer {
+  border-left: 1px solid #dedede;
+  padding-left: 1.2rem;
+}
+
+.style-module__n4BBnW__homeContainer_feedContainer {
+  padding-left: .8rem;
+  padding-right: .8rem;
+}
+
+.style-module__n4BBnW__mobileNavBar {
+  z-index: 1000;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 6vh;
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.style-module__n4BBnW__mobileNavBar svg {
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+}
+
+.style-module__n4BBnW__singleNavItemHolder_mobileView {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.style-module__n4BBnW__homeContainer_feedContainer {
+  padding-bottom: 8vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .style-module__n4BBnW__homeContainer_extraContainer {
+    display: none;
+  }
+
+  .style-module__n4BBnW__homeContainer {
+    display: block;
+  }
+
+  .style-module__n4BBnW__homeContainer_leftBar {
+    display: none;
+  }
+
+  .style-module__n4BBnW__mobileNavBar {
+    display: flex;
+  }
+}
+
+/* [project]/src/Components/Navbar/styles.module.css [client] (css) */
+.styles-module__dL6Fgq__container {
+  padding: 1.2rem;
+  font-family: Poppins;
+}
+
+.styles-module__dL6Fgq__navBar {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.styles-module__dL6Fgq__navBarOptionContainer {
+  display: flex;
+}
+
+.styles-module__dL6Fgq__buttonJoin {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  color: #fff;
+  background-color: #3bbff4;
+  border: 2px solid #02afff;
+  border-radius: 1rem;
+  margin-top: .5rem;
+  padding: .5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all .2s;
+}
+
+/* [project]/src/pages/discover/styles.module.css [client] (css) */
+.styles-module__rMQskG__allUserProfile {
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  max-width: 80%;
+  display: flex;
+}
+
+.styles-module__rMQskG__userCard {
+  cursor: pointer;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.3rem;
+  display: flex;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, .1);
+}
+
+.styles-module__rMQskG__userCard_image {
+  border-radius: 50%;
+  width: 10%;
+}
+
+/*# sourceMappingURL=src_a6a32ea3._.css.map*/

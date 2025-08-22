@@ -1,0 +1,29 @@
+.container{
+  padding: 1.2rem;
+   font-family: "Poppins";
+}
+
+.navBar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBarOptionContainer{
+  display: flex;
+}
+
+.buttonJoin{
+  
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  background-color: rgb(59, 191, 244);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 2px solid rgb(2, 175, 255);
+  font-weight: 500;
+}

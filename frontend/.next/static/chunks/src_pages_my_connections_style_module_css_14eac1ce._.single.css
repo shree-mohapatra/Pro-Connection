@@ -1,0 +1,27 @@
+/* [project]/src/pages/my_connections/style.module.css [client] (css) */
+.style-module__BK1nbG__userCard {
+  align-items: center;
+  gap: 1.2rem;
+  width: 100%;
+  display: flex;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, .1);
+}
+
+.style-module__BK1nbG__profilePicture > img {
+  border-radius: 50%;
+  width: 6.5rem;
+}
+
+.style-module__BK1nbG__connectedbutton {
+  color: rgba(3, 93, 183, .906);
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 10px;
+  outline: none;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+  padding-left: .8rem;
+  padding-right: .8rem;
+}
+
+/*# sourceMappingURL=src_pages_my_connections_style_module_css_14eac1ce._.single.css.map*/
