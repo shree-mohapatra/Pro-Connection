@@ -16,14 +16,6 @@ app.use(
   })
 );
 
-app.options(
-  "*",
-  cors({
-    origin: "https://pro-connection.vercel.app",
-    credentials: true,
-  })
-);
-
 app.use(express.json());
 app.use(postRoutes);
 app.use(userRoutes);
