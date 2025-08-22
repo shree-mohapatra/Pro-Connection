@@ -3,9 +3,14 @@ import cors from "cors";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import postRoutes from "./routes/posts.routes.js";
-
+const PORT = process.env.PORT || 9090;
 import userRoutes from "./routes/user.routes.js";
-dotenv.config({ path: "../.env" });
+
+if (process.env.NODE_ENV !== "production") {
+  dotenv.config({ path: "../.env" });
+} else {
+  dotenv.config();
+}
 
 const app = express();
 
@@ -30,6 +35,6 @@ main()
   .then(() => console.log("connected to the server"))
   .catch((err) => console.log(err));
 
-app.listen(9090, () => {
-  console.log(`listening on port ${9090}`);
+app.listen(PORT, () => {
+  console.log(`listening on port ${PORT}`);
 });
