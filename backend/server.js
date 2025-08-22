@@ -9,7 +9,20 @@ dotenv.config({ path: "../.env" });
 
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://pro-connection.vercel.app",
+    credentials: true,
+  })
+);
+
+app.options(
+  "*",
+  cors({
+    origin: "https://pro-connection.vercel.app",
+    credentials: true,
+  })
+);
 
 app.use(express.json());
 app.use(postRoutes);
