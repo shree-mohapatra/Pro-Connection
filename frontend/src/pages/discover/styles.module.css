@@ -5,7 +5,7 @@
   flex-direction: column;
   gap: 1.2rem;
 }
-
+/* 
 .userCard{
   display: flex;
   cursor: pointer;
@@ -13,8 +13,27 @@
   padding: 1.3rem;
   align-items: center;
   box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.1);
-}
-.userCard_image{
+} */
+/* .userCard_image{
   width: 10%;
   border-radius:50% ;
+} */
+
+.userCard {
+  display: flex;
+  cursor: pointer;
+  gap: 1.2rem;
+  padding: 1.3rem;
+  align-items: center;
+  width: 100%; 
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.userCard_image {
+  width: 60px;   
+  height: 60px;  
+  border-radius: 50%;
+  object-fit: cover; 
+  flex-shrink: 0;    
 }
