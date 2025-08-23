@@ -56,7 +56,7 @@ function DiscoverPage() {
                         />
                         <div>
                           <h3>{oneUser.userId.name}</h3>
-                          <p>@{oneUser.userId.email}</p>
+                          <p>@{oneUser.userId.username}</p>
                         </div>
                       </div>
                     );
