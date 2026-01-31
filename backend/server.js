@@ -14,11 +14,18 @@ if (process.env.NODE_ENV !== "production") {
 
 const app = express();
 
+// app.use(
+//   cors({
+//     origin: "https://pro-connection.vercel.app",
+//     credentials: true,
+//   })
+// );
+
 app.use(
   cors({
-    origin: "https://pro-connection.vercel.app",
+    origin: true,
     credentials: true,
-  })
+  }),
 );
 
 app.use(express.json());
